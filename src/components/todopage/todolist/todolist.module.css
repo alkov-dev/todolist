@@ -1,0 +1,52 @@
+.list__block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid lightsalmon ;
+    border-radius: 5px;
+    align-items: center;
+    margin: 2px;
+}
+
+.button__remove {
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+.list__value{
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    width: 500px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.list__value.green{
+    color: green; 
+    text-decoration: line-through; 
+}
+.list__value.red{
+    color: darkmagenta;  
+}
+.trash img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.trash img:hover{
+    opacity: .8;
+}
+.brush img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.brush img:hover{
+    opacity: .8;
+}
+
+
+@media screen and (max-width: 768px) {
+    .list__value{
+        width: 400px;
+    }
+}

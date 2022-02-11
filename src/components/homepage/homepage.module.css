@@ -1,0 +1,17 @@
+.label img{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.hp__container{
+    font-family: 'Quintessential', cursive;
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+}

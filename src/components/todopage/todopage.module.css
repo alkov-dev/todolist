@@ -1,0 +1,98 @@
+.todo__container {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.todolist__block{
+    height: 650px;
+}
+.add__img img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+.add__img img:hover{
+    opacity: .8;
+    
+}
+
+.addNewItem__block {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.addNewItem__input input{
+    width: 450px;
+    height: 35px;
+}
+
+.pagination__block{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pagination__back img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer
+}
+.pagination__back img:hover{
+    opacity: .8;
+}
+
+.pagination__forward img {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.pagination__forward img:hover{
+    opacity: .8;
+}
+.pagination__item{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    border: 2px solid darkgreen;
+    background: lightgreen;
+    color: darkgreen;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+.pagination__item:hover{
+    opacity: .8;
+}
+
+
+@media screen and (max-width: 768px) {
+    .todo__container {
+        width: 500px;
+        padding-top: 10px;
+    }
+    .addNewItem__input input{
+        width: 400px;
+    }
+    .todolist__block{
+        height: 700px;
+    }
+    .addNewItem__block {
+        margin-bottom: 10px;
+    }
+
+}
